@@ -1,1 +1,0 @@
-import{V as e}from"./chunk-ZA3U0P5r.js";import{gY as o,ll as t,g$ as r,h0 as s,h1 as p}from"./chunk-oRXQYLok.js";import"./chunk-B3AFDltd.js";import"./chunk-TuNNQCxK.js";import"./chunk-IGmq6gCy.js";import"./chunk-I9oa6RJ6.js";const h=o({__name:"basic",setup(n){const a={map:new t({basemap:"arcgis-imagery"})};return(i,c)=>(r(),s(p(e),{"default-options":a}))}});export{h as default};
