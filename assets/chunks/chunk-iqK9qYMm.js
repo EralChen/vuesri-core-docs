@@ -1,1 +1,0 @@
-import{u as t}from"./chunk-L8u31oVu.js";import{gY as r,lD as s,g$ as a,h8 as n,he as c}from"./chunk-7CxtqCyf.js";import"./chunk-b3huDAu8.js";const p=r({setup(){const e=t().spatialReference;return console.log(e),{spatialReference:e}}});function l(o,e,i,f,u,m){return a(),n("p",null,c(o.spatialReference),1)}const g=s(p,[["render",l]]);export{g as default};
