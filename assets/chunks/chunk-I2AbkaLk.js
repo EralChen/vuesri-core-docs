@@ -1,0 +1,1 @@
+import{gT as d,gW as o,gV as r,gU as s}from"./chunk-nmd5K2Af.js";const f=(a,e,t)=>{t.orphan||(d(()=>{a.add(e,t.position)}),o(()=>{a.remove(e)}),r(()=>{a.add(e,t.position)}),s(()=>{a.remove(e)}))};export{f as u};
