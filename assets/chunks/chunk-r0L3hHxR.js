@@ -1,1 +1,0 @@
-import{eW as a,at as l}from"./chunk-nmd5K2Af.js";function m(e,t=a(e)){return t.mode!=="on-the-ground"&&!(e.geometry==null||!e.geometry.hasZ)}function s(e,t){let r=null;const o=e.events.on("grab-changed",n=>{r!=null&&(r.remove(),r=null),n.action==="start"&&(r=e.disableDisplay()),t&&t(n)});return l(()=>{r?.remove(),o.remove()})}export{m as n,s as t};

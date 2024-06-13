@@ -1,1 +1,0 @@
-import{gS as n}from"./chunk-nmd5K2Af.js";function s(){const e=n("vaSublayers");if(!e)throw new Error("The component which use useSublayers() must be in a has Sublayers component");return e}export{s as u};
