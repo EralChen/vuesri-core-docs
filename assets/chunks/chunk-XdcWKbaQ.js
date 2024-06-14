@@ -1,1 +1,0 @@
-import{fp as s,fq as p,bN as i}from"./chunk-Id6bT2Sz.js";import{p as n}from"./chunk-wuP9hPX3.js";import"./chunk-f83L__eB.js";async function x(r,o,t,a){const f=s(r),e={...a},{data:m}=await n(f,p.from(o),t,e);return i.fromJSON(m)}export{x as executeTopFeaturesQuery};
