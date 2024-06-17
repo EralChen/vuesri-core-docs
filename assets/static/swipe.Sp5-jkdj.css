@@ -1,0 +1,1 @@
+.map-swipe{height:450px}.map-swipe .vk-swipe-item.is-top{clip-path:initial;pointer-events:none}.map-swipe .vk-swipe-item.is-top .esri-view-user-storage,.map-swipe .vk-swipe-item.is-top .esri-view-root{pointer-events:initial}.map-swipe:not(.is-disabled) .vk-swipe-item.is-top .esri-view-root{clip-path:polygon(0 0,var(--vk-swipe-split-left) 0,var(--vk-swipe-split-left) 100%,0 100%)}
