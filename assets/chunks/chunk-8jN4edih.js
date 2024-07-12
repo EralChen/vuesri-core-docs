@@ -1,1 +1,0 @@
-import{$ as t,a2 as r}from"./chunk-fyrbxnSH.js";import{N as s}from"./chunk-sljNBb-4.js";import"./chunk-f83L__eB.js";import"./chunk-igfu5bkA.js";import"./chunk-v36eRp1j.js";import"./chunk-KW6VvrUZ.js";let e=class extends s{constructor(){super(...arguments),this.type="base-dynamic-3d"}};e=t([r("esri.views.3d.layers.BaseDynamicLayerView3D")],e);const n=e;export{n as default};
