@@ -1,0 +1,1 @@
+import{gT as n}from"./chunk-r79-UitW.js";function s(){const e=n("vaSublayers");if(!e)throw new Error("The component which use useSublayers() must be in a has Sublayers component");return e}export{s as u};

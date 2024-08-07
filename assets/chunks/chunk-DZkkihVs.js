@@ -1,0 +1,5 @@
+import"./chunk-r79-UitW.js";/*!
+ * All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+ * See https://github.com/Esri/calcite-design-system/blob/main/LICENSE.md for details.
+ * v2.9.0
+ */const c="calcite-list",o="calcite-list-item-group",r="calcite-list-item";function m(s){return Array.from(s.assignedElements({flatten:!0}).filter(e=>e.matches(c)))}function f(s){const e=s.assignedElements({flatten:!0}),i=e.filter(t=>t?.matches(o)).map(t=>Array.from(t.querySelectorAll(r))).reduce((t,l)=>[...t,...l],[]),n=e.filter(t=>t?.matches(r));return[...e.filter(t=>t?.matches(c)).map(t=>Array.from(t.querySelectorAll(r))).reduce((t,l)=>[...t,...l],[]),...i,...n]}function h(s){s.forEach(e=>{e.setPosition=s.indexOf(e)+1,e.setSize=s.length})}function d(s,e=!1){const i=e?"ancestor::calcite-list-item | ancestor::calcite-list-item-group":"ancestor::calcite-list-item";return document.evaluate(i,s,null,XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength}export{f as a,m as b,d as g,h as u};
