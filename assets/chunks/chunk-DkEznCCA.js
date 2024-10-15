@@ -1,0 +1,7 @@
+import{_ as d}from"./chunk-0wTVHGNT.js";import{gK as v,s as t,U as y,gL as u,cW as p,gM as b,bi as c}from"./chunk-fHrNL0KE.js";let n=l();function l(){return new v(50)}function T(){n=l()}async function $(e,r){if(e.resource?.href)return w(e.resource.href).then(o=>[o.width,o.height]);if(e.resource?.primitive)return r!=null?[r,r]:[256,256];throw new t("symbol3d:invalid-symbol-layer","symbol layers of type Icon must have either an href or a primitive resource")}function w(e){return y(e,{responseType:"image"}).then(r=>r.data)}async function x(e,r=null){if(!e.isPrimitive){const i=e.resource.href;if(!i)throw new t("symbol:invalid-resource","The symbol does not have a valid resource");const s=n.get(i);if(s!==void 0)return s;const{fetch:f}=await d(()=>import("./chunk-fHrNL0KE.js").then(m=>m.Fk),__vite__mapDeps([0,1,2])),h=await f(i,{disableTextures:!0}),a=u(h.referenceBoundingBox,c());return n.put(i,a),a}if(!e.resource?.primitive)throw new t("symbol:invalid-resource","The symbol does not have a valid resource");const o=p(b(e.resource.primitive));if(r!=null)for(let i=0;i<o.length;i++)o[i]*=r;return u(o,c())}export{T as clearBoundingBoxCache,$ as computeIconLayerResourceSize,x as computeObjectLayerResourceSize};
+function __vite__mapDeps(indexes) {
+  if (!__vite__mapDeps.viteFileDeps) {
+    __vite__mapDeps.viteFileDeps = ["assets/chunks/chunk-fHrNL0KE.js","assets/chunks/chunk-0wTVHGNT.js","assets/static/ShadedColorMaterial.xM8YoBbU.css"]
+  }
+  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
+}

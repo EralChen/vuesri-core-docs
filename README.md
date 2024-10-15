@@ -39,7 +39,7 @@
 
 ```shell
 # pnpm or npm or yarn
-$ pnpm install @vunk/core@alpha @vuesri/core @arcgis/core
+$ pnpm install @vunk/core @vuesri/core @arcgis/core
 ```
 
 ## 使用

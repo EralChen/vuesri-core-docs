@@ -1,1 +1,0 @@
-import{gU as d,gX as o,gW as r,gV as s}from"./chunk-5cgByRBI.js";const f=(a,e,t)=>{t.orphan||(d(()=>{a.add(e,t.position)}),o(()=>{a.remove(e)}),r(()=>{a.add(e,t.position)}),s(()=>{a.remove(e)}))};export{f as u};
