@@ -1,0 +1,1 @@
+import{u as o}from"./chunk-BU0sQgI5.js";import{g$ as r,he as t}from"./chunk-CGsGeN7j.js";const c=r({__name:"underground",setup(a){const e=o().map;return e.ground.navigationConstraint={type:"none"},e.ground.opacity=.1,e.ground.surfaceColor="#CFC7BC",(n,u)=>t(n.$slots,"default")}});export{c as _};

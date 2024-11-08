@@ -1,0 +1,1 @@
+import{gW as e}from"./chunk-CGsGeN7j.js";function n(){const r=e("vaGraphicsLayer");if(!r)throw new Error("The component which use useGraphicsLayer() must be in a GraphicsLayer component");return r}export{n as u};
