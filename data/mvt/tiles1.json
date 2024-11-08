@@ -1,0 +1,2284 @@
+{
+  "tilestats": {
+    "layers": [
+      {
+        "layer": "water",
+        "geometry": "Polygon",
+        "attributes": [
+          {
+            "type": "Number",
+            "attribute": "id"
+          },
+          {
+            "type": "String",
+            "values": [
+              "dock",
+              "river",
+              "lake",
+              "ocean",
+              "swimming_pool"
+            ],
+            "attribute": "class"
+          },
+          {
+            "type": "Number",
+            "values": [
+              0,
+              1
+            ],
+            "attribute": "intermittent"
+          },
+          {
+            "type": "String",
+            "values": [
+              "bridge",
+              "tunnel"
+            ],
+            "attribute": "brunnel"
+          }
+        ],
+        "attributeCount": 4
+      },
+      {
+        "layer": "waterway",
+        "geometry": "LineString",
+        "attributes": [
+          {
+            "type": "String",
+            "attribute": "name"
+          },
+          {
+            "type": "String",
+            "attribute": "name_en"
+          },
+          {
+            "type": "String",
+            "attribute": "name_de"
+          },
+          {
+            "type": "String",
+            "values": [
+              "stream",
+              "river",
+              "canal",
+              "drain",
+              "ditch"
+            ],
+            "attribute": "class"
+          },
+          {
+            "type": "String",
+            "values": [
+              "bridge",
+              "tunnel"
+            ],
+            "attribute": "brunnel"
+          },
+          {
+            "type": "Number",
+            "values": [
+              0,
+              1
+            ],
+            "attribute": "intermittent"
+          }
+        ],
+        "attributeCount": 6
+      },
+      {
+        "layer": "landcover",
+        "geometry": "Polygon",
+        "attributes": [
+          {
+            "type": "String",
+            "values": [
+              "farmland",
+              "ice",
+              "wood",
+              "rock",
+              "grass",
+              "wetland",
+              "sand"
+            ],
+            "attribute": "class"
+          },
+          {
+            "type": "String",
+            "values": [
+              "allotments",
+              "bare_rock",
+              "beach",
+              "bog",
+              "dune",
+              "scrub",
+              "shrubbery",
+              "farm",
+              "farmland",
+              "fell",
+              "forest",
+              "garden",
+              "glacier",
+              "grass",
+              "grassland",
+              "golf_course",
+              "heath",
+              "ice_shelf",
+              "mangrove",
+              "marsh",
+              "meadow",
+              "orchard",
+              "park",
+              "plant_nursery",
+              "recreation_ground",
+              "reedbed",
+              "saltern",
+              "saltmarsh",
+              "sand",
+              "scree",
+              "swamp",
+              "tidalflat",
+              "tundra",
+              "village_green",
+              "vineyard",
+              "wet_meadow",
+              "wetland",
+              "wood"
+            ],
+            "attribute": "subclass"
+          }
+        ],
+        "attributeCount": 2
+      },
+      {
+        "layer": "landuse",
+        "geometry": "Polygon",
+        "attributes": [
+          {
+            "type": "String",
+            "values": [
+              "railway",
+              "cemetery",
+              "military",
+              "residential",
+              "commercial",
+              "industrial",
+              "garages",
+              "retail",
+              "bus_station",
+              "school",
+              "university",
+              "kindergarten",
+              "college",
+              "library",
+              "hospital",
+              "stadium",
+              "pitch",
+              "playground",
+              "track",
+              "theme_park",
+              "zoo",
+              "suburb",
+              "quarter",
+              "neighbourhood",
+              "dam",
+              "quarry"
+            ],
+            "attribute": "class"
+          }
+        ],
+        "attributeCount": 1
+      },
+      {
+        "layer": "mountain_peak",
+        "geometry": [
+          "Point",
+          "LineString"
+        ],
+        "attributes": [
+          {
+            "type": "String",
+            "attribute": "name"
+          },
+          {
+            "type": "String",
+            "attribute": "name_en"
+          },
+          {
+            "type": "String",
+            "attribute": "name_de"
+          },
+          {
+            "type": "String",
+            "values": [
+              "peak",
+              "volcano",
+              "saddle",
+              "ridge",
+              "cliff",
+              "arete"
+            ],
+            "attribute": "class"
+          },
+          {
+            "max": 9825,
+            "min": -180,
+            "type": "Number",
+            "attribute": "ele"
+          },
+          {
+            "max": 32234,
+            "min": -591,
+            "type": "Number",
+            "attribute": "ele_ft"
+          },
+          {
+            "type": "Number",
+            "values": [
+              1
+            ],
+            "attribute": "customary_ft"
+          },
+          {
+            "max": 406,
+            "min": 1,
+            "type": "Number",
+            "attribute": "rank"
+          }
+        ],
+        "attributeCount": 8
+      },
+      {
+        "layer": "park",
+        "geometry": [
+          "Polygon",
+          "Point"
+        ],
+        "attributes": [
+          {
+            "type": "String",
+            "attribute": "class"
+          },
+          {
+            "type": "String",
+            "attribute": "name"
+          },
+          {
+            "type": "String",
+            "attribute": "name_en"
+          },
+          {
+            "type": "String",
+            "attribute": "name_de"
+          },
+          {
+            "type": "Number",
+            "attribute": "rank"
+          }
+        ],
+        "attributeCount": 5
+      },
+      {
+        "layer": "boundary",
+        "geometry": "LineString",
+        "attributes": [
+          {
+            "type": "Number",
+            "values": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "attribute": "admin_level"
+          },
+          {
+            "type": "String",
+            "attribute": "adm0_l"
+          },
+          {
+            "type": "String",
+            "attribute": "adm0_r"
+          },
+          {
+            "type": "Number",
+            "values": [
+              0,
+              1
+            ],
+            "attribute": "disputed"
+          },
+          {
+            "type": "String",
+            "attribute": "disputed_name"
+          },
+          {
+            "type": "String",
+            "values": [
+              "AM",
+              "BF",
+              "BJ",
+              "BT",
+              "CN",
+              "EG",
+              "EH",
+              "ES",
+              "ET",
+              "FR",
+              "GY",
+              "IL",
+              "IN",
+              "IT",
+              "JP",
+              "KE",
+              "KG",
+              "MW",
+              "NP",
+              "PK",
+              "PS",
+              "RU",
+              "SD",
+              "SS",
+              "SY",
+              "TR",
+              "TZ",
+              "UA",
+              "UN",
+              "XA",
+              "XK",
+              "XN",
+              "XS"
+            ],
+            "attribute": "claimed_by"
+          },
+          {
+            "type": "Number",
+            "values": [
+              0,
+              1
+            ],
+            "attribute": "maritime"
+          }
+        ],
+        "attributeCount": 7
+      },
+      {
+        "layer": "aeroway",
+        "geometry": [
+          "LineString",
+          "Polygon",
+          "Point"
+        ],
+        "attributes": [
+          {
+            "type": "String",
+            "attribute": "ref"
+          },
+          {
+            "type": "String",
+            "values": [
+              "aerodrome",
+              "heliport",
+              "runway",
+              "helipad",
+              "taxiway",
+              "apron",
+              "gate"
+            ],
+            "attribute": "class"
+          }
+        ],
+        "attributeCount": 2
+      },
+      {
+        "layer": "transportation",
+        "geometry": [
+          "LineString",
+          "Polygon"
+        ],
+        "attributes": [
+          {
+            "type": "String",
+            "values": [
+              "transit",
+              "storage_tank",
+              "tertiary",
+              "service",
+              "primary_construction",
+              "path",
+              "raceway",
+              "motorway",
+              "trunk",
+              "primary",
+              "track",
+              "tertiary_construction",
+              "ferry",
+              "raceway_construction",
+              "minor_construction",
+              "motorway_construction",
+              "secondary_construction",
+              "secondary",
+              "service_construction",
+              "aerialway",
+              "bus_guideway",
+              "rail",
+              "bridge",
+              "path_construction",
+              "minor",
+              "trunk_construction",
+              "track_construction",
+              "pier",
+              "courtyard",
+              "busway"
+            ],
+            "attribute": "class"
+          },
+          {
+            "type": "String",
+            "values": [
+              "funicular",
+              "cycleway",
+              "stop_area",
+              "light_rail",
+              "narrow_gauge",
+              "yes",
+              "t-bar",
+              "path",
+              "platter",
+              "platform",
+              "corridor",
+              "pedestrian",
+              "preserved",
+              "no",
+              "mixed_lift",
+              "subway",
+              "stop_position",
+              "j-bar",
+              "chair_lift",
+              "bridleway",
+              "drag_lift",
+              "steps",
+              "tram",
+              "platform_access",
+              "monorail",
+              "rail",
+              "cable_car",
+              "disused",
+              "gondola",
+              "footway",
+              "entrance_pass",
+              "entrance",
+              "station"
+            ],
+            "attribute": "subclass"
+          },
+          {
+            "type": "String",
+            "attribute": "network"
+          },
+          {
+            "type": "String",
+            "values": [
+              "bridge",
+              "tunnel",
+              "ford"
+            ],
+            "attribute": "brunnel"
+          },
+          {
+            "type": "Number",
+            "values": [
+              1,
+              -1
+            ],
+            "attribute": "oneway"
+          },
+          {
+            "type": "Number",
+            "values": [
+              1
+            ],
+            "attribute": "ramp"
+          },
+          {
+            "type": "String",
+            "values": [
+              "spur",
+              "yard",
+              "siding",
+              "crossover",
+              "driveway",
+              "alley",
+              "parking_aisle"
+            ],
+            "attribute": "service"
+          },
+          {
+            "type": "String",
+            "values": [
+              "no"
+            ],
+            "attribute": "access"
+          },
+          {
+            "type": "Number",
+            "values": [
+              1
+            ],
+            "attribute": "toll"
+          },
+          {
+            "type": "Number",
+            "values": [
+              1
+            ],
+            "attribute": "expressway"
+          },
+          {
+            "max": 100,
+            "min": -112,
+            "type": "Number",
+            "attribute": "layer"
+          },
+          {
+            "max": 12,
+            "min": -19,
+            "type": "Number",
+            "attribute": "level"
+          },
+          {
+            "type": "Number",
+            "values": [
+              1
+            ],
+            "attribute": "indoor"
+          },
+          {
+            "type": "String",
+            "attribute": "bicycle"
+          },
+          {
+            "type": "String",
+            "attribute": "foot"
+          },
+          {
+            "type": "String",
+            "attribute": "horse"
+          },
+          {
+            "type": "String",
+            "attribute": "mtb_scale"
+          },
+          {
+            "type": "String",
+            "values": [
+              "paved",
+              "unpaved"
+            ],
+            "attribute": "surface"
+          }
+        ],
+        "attributeCount": 18
+      },
+      {
+        "layer": "building",
+        "geometry": "Polygon",
+        "attributes": [
+          {
+            "max": 3467,
+            "min": -192,
+            "type": "Number",
+            "attribute": "render_height"
+          },
+          {
+            "max": 583,
+            "min": -26,
+            "type": "Number",
+            "attribute": "render_min_height"
+          },
+          {
+            "type": "String",
+            "attribute": "colour"
+          },
+          {
+            "type": "Boolean",
+            "values": [
+              true
+            ],
+            "attribute": "hide_3d"
+          }
+        ],
+        "attributeCount": 4
+      },
+      {
+        "layer": "water_name",
+        "geometry": [
+          "Point",
+          "LineString"
+        ],
+        "attributes": [
+          {
+            "type": "String",
+            "attribute": "name"
+          },
+          {
+            "type": "String",
+            "attribute": "name_en"
+          },
+          {
+            "type": "String",
+            "attribute": "name_de"
+          },
+          {
+            "type": "String",
+            "values": [
+              "lake",
+              "sea",
+              "ocean"
+            ],
+            "attribute": "class"
+          },
+          {
+            "type": "Number",
+            "values": [
+              0,
+              1
+            ],
+            "attribute": "intermittent"
+          }
+        ],
+        "attributeCount": 5
+      },
+      {
+        "layer": "transportation_name",
+        "geometry": "LineString",
+        "attributes": [
+          {
+            "type": "String",
+            "attribute": "name"
+          },
+          {
+            "type": "String",
+            "attribute": "name_en"
+          },
+          {
+            "type": "String",
+            "attribute": "name_de"
+          },
+          {
+            "type": "String",
+            "attribute": "ref"
+          },
+          {
+            "max": 147,
+            "min": 1,
+            "type": "Number",
+            "attribute": "ref_length"
+          },
+          {
+            "type": "String",
+            "values": [
+              "us-interstate",
+              "us-highway",
+              "us-state",
+              "ca-transcanada",
+              "gb-motorway",
+              "gb-trunk",
+              "road (default)"
+            ],
+            "attribute": "network"
+          },
+          {
+            "type": "String",
+            "values": [
+              "motorway",
+              "trunk",
+              "primary",
+              "secondary",
+              "tertiary",
+              "minor",
+              "service",
+              "track",
+              "path",
+              "raceway",
+              "motorway_construction",
+              "trunk_construction",
+              "primary_construction",
+              "secondary_construction",
+              "tertiary_construction",
+              "minor_construction",
+              "service_construction",
+              "track_construction",
+              "path_construction",
+              "raceway_construction",
+              "motorway_junction",
+              "bus_guideway",
+              "busway",
+              "ferry"
+            ],
+            "attribute": "class"
+          },
+          {
+            "type": "String",
+            "values": [
+              "path",
+              "footway",
+              "cycleway",
+              "pedestrian",
+              "junction",
+              "steps",
+              "residential",
+              "motorway",
+              "bridleway",
+              "ferry",
+              "trunk",
+              "chair_lift",
+              "primary",
+              "secondary",
+              "tertiary",
+              "corridor",
+              "platter",
+              "drag_lift",
+              "t-bar",
+              "minor",
+              "unclassified",
+              "motorway_link",
+              "gondola",
+              "service",
+              "yes",
+              "cable_car",
+              "trunk_link",
+              "living_street",
+              "widening",
+              "track",
+              "highway",
+              "primary_link",
+              "no",
+              "j-bar",
+              "secondary_link",
+              "mixed_lift",
+              "proposed",
+              "road",
+              "tertiary_link",
+              "rail",
+              "construction",
+              "rest_area",
+              "platform",
+              "motoway",
+              "bridge",
+              "busway",
+              "services",
+              "industrial"
+            ],
+            "attribute": "subclass"
+          },
+          {
+            "type": "String",
+            "values": [
+              "bridge",
+              "tunnel",
+              "ford"
+            ],
+            "attribute": "brunnel"
+          },
+          {
+            "max": 8,
+            "min": -6,
+            "type": "Number",
+            "attribute": "level"
+          },
+          {
+            "max": 10,
+            "min": -17,
+            "type": "Number",
+            "attribute": "layer"
+          },
+          {
+            "type": "Number",
+            "values": [
+              1
+            ],
+            "attribute": "indoor"
+          },
+          {
+            "type": "String",
+            "attribute": "route_1"
+          },
+          {
+            "type": "String",
+            "attribute": "route_2"
+          },
+          {
+            "type": "String",
+            "attribute": "route_3"
+          },
+          {
+            "type": "String",
+            "attribute": "route_4"
+          },
+          {
+            "type": "String",
+            "attribute": "route_5"
+          },
+          {
+            "type": "String",
+            "attribute": "route_6"
+          }
+        ],
+        "attributeCount": 18
+      },
+      {
+        "layer": "place",
+        "geometry": "Point",
+        "attributes": [
+          {
+            "type": "String",
+            "attribute": "name"
+          },
+          {
+            "type": "String",
+            "attribute": "name_en"
+          },
+          {
+            "type": "String",
+            "attribute": "name_de"
+          },
+          {
+            "type": "Number",
+            "values": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "attribute": "capital"
+          },
+          {
+            "type": "String",
+            "values": [
+              "continent",
+              "country",
+              "state",
+              "province",
+              "city",
+              "town",
+              "village",
+              "hamlet",
+              "suburb",
+              "quarter",
+              "neighbourhood",
+              "isolated_dwelling",
+              "island"
+            ],
+            "attribute": "class"
+          },
+          {
+            "type": "String",
+            "attribute": "iso_a2"
+          },
+          {
+            "max": 54,
+            "min": 0,
+            "type": "Number",
+            "attribute": "rank"
+          }
+        ],
+        "attributeCount": 7
+      },
+      {
+        "layer": "housenumber",
+        "geometry": "Point",
+        "attributes": [
+          {
+            "type": "String",
+            "attribute": "housenumber"
+          }
+        ],
+        "attributeCount": 1
+      },
+      {
+        "layer": "poi",
+        "geometry": "Point",
+        "attributes": [
+          {
+            "type": "String",
+            "attribute": "name"
+          },
+          {
+            "type": "String",
+            "attribute": "name_en"
+          },
+          {
+            "type": "String",
+            "attribute": "name_de"
+          },
+          {
+            "type": "String",
+            "values": [
+              "shop",
+              "town_hall",
+              "golf",
+              "fast_food",
+              "park",
+              "bus",
+              "railway",
+              "aerialway",
+              "entrance",
+              "campsite",
+              "laundry",
+              "grocery",
+              "library",
+              "college",
+              "lodging",
+              "ice_cream",
+              "post",
+              "cafe",
+              "school",
+              "alcohol_shop",
+              "bar",
+              "harbor",
+              "car",
+              "hospital",
+              "cemetery",
+              "attraction",
+              "beer",
+              "music",
+              "stadium",
+              "art_gallery",
+              "clothing_store",
+              "swimming",
+              "castle",
+              "atm"
+            ],
+            "attribute": "class"
+          },
+          {
+            "type": "String",
+            "attribute": "subclass"
+          },
+          {
+            "max": 1107,
+            "min": 1,
+            "type": "Number",
+            "attribute": "rank"
+          },
+          {
+            "type": "Number",
+            "values": [
+              1
+            ],
+            "attribute": "agg_stop"
+          },
+          {
+            "max": 1554,
+            "min": -26,
+            "type": "Number",
+            "attribute": "level"
+          },
+          {
+            "max": 60,
+            "min": -13,
+            "type": "Number",
+            "attribute": "layer"
+          },
+          {
+            "type": "Number",
+            "values": [
+              1
+            ],
+            "attribute": "indoor"
+          }
+        ],
+        "attributeCount": 10
+      },
+      {
+        "layer": "aerodrome_label",
+        "geometry": "Point",
+        "attributes": [
+          {
+            "type": "String",
+            "attribute": "name"
+          },
+          {
+            "type": "String",
+            "attribute": "name_en"
+          },
+          {
+            "type": "String",
+            "attribute": "name_de"
+          },
+          {
+            "type": "String",
+            "values": [
+              "international",
+              "public",
+              "regional",
+              "military",
+              "private",
+              "other"
+            ],
+            "attribute": "class"
+          },
+          {
+            "type": "String",
+            "attribute": "iata"
+          },
+          {
+            "type": "String",
+            "attribute": "icao"
+          },
+          {
+            "max": 6752,
+            "min": -378,
+            "type": "Number",
+            "attribute": "ele"
+          },
+          {
+            "max": 22152,
+            "min": -1240,
+            "type": "Number",
+            "attribute": "ele_ft"
+          }
+        ],
+        "attributeCount": 8
+      }
+    ],
+    "layerCount": 16,
+    "languages": [
+      "am",
+      "ar",
+      "az",
+      "be",
+      "bg",
+      "br",
+      "bs",
+      "ca",
+      "co",
+      "cs",
+      "cy",
+      "da",
+      "de",
+      "el",
+      "en",
+      "eo",
+      "es",
+      "et",
+      "eu",
+      "fi",
+      "fr",
+      "fy",
+      "ga",
+      "gd",
+      "he",
+      "hi",
+      "hr",
+      "hu",
+      "hy",
+      "id",
+      "is",
+      "it",
+      "ja",
+      "ja_kana",
+      "ja_rm",
+      "ja-Latn",
+      "ja-Hira",
+      "ka",
+      "kk",
+      "kn",
+      "ko",
+      "ko-Latn",
+      "ku",
+      "la",
+      "lb",
+      "lt",
+      "lv",
+      "mk",
+      "mt",
+      "ml",
+      "nl",
+      "no",
+      "oc",
+      "pl",
+      "pt",
+      "rm",
+      "ro",
+      "ru",
+      "sk",
+      "sl",
+      "sq",
+      "sr",
+      "sr-Latn",
+      "sv",
+      "ta",
+      "te",
+      "th",
+      "tr",
+      "uk",
+      "zh",
+      "latin",
+      "nonlatin"
+    ]
+  },
+  "tilejson": "2.1.0",
+  "pixel_scale": "256",
+  "format": "pbf",
+  "minzoom": 0,
+  "maxzoom": 14,
+  "version": "3.14.0",
+  "id": "openmaptiles",
+  "generator": "MapTiler Data",
+  "planettime": "1664755200000",
+  "vector_layers": [
+    {
+      "id": "water",
+      "description": "Water polygons representing oceans and lakes. Covered watered areas are excluded (`covered=yes`).\nOn low zoom levels all water originates from Natural Earth. To get a more correct display of the south pole you should also\nstyle the covering ice shelves over the water.\nOn higher zoom levels water polygons from [OpenStreetMapData](http://osmdata.openstreetmap.de/) are used.\nThe polygons are split into many smaller polygons to improve rendering performance.\nThis however can lead to less rendering options in clients since these boundaries show up. So you might not be\nable to use border styling for ocean water features.",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "id": "Number",
+        "class": "String",
+        "intermittent": "Number",
+        "brunnel": "String"
+      }
+    },
+    {
+      "id": "waterway",
+      "description": "OpenStreetMap [waterways](https://wiki.openstreetmap.org/wiki/Waterways) for higher zoom levels (z9 and more)\nand Natural Earth rivers and lake centerlines for low zoom levels (z3 - z8).\nLinestrings without a name or which are too short are filtered\nout at low zoom levels.\nTill z11 there is `river` class only, in z12 there is also `canal` generated,\nstarting z13 there is no generalization according to `class` field applied.\nWaterways do not have a `subclass` field.",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "name": "String",
+        "name_en": "String",
+        "name_de": "String",
+        "name:am": "String",
+        "name:ar": "String",
+        "name:az": "String",
+        "name:be": "String",
+        "name:bg": "String",
+        "name:br": "String",
+        "name:bs": "String",
+        "name:ca": "String",
+        "name:co": "String",
+        "name:cs": "String",
+        "name:cy": "String",
+        "name:da": "String",
+        "name:de": "String",
+        "name:el": "String",
+        "name:en": "String",
+        "name:eo": "String",
+        "name:es": "String",
+        "name:et": "String",
+        "name:eu": "String",
+        "name:fi": "String",
+        "name:fr": "String",
+        "name:fy": "String",
+        "name:ga": "String",
+        "name:gd": "String",
+        "name:he": "String",
+        "name:hi": "String",
+        "name:hr": "String",
+        "name:hu": "String",
+        "name:hy": "String",
+        "name:id": "String",
+        "name:is": "String",
+        "name:it": "String",
+        "name:ja": "String",
+        "name:ja_kana": "String",
+        "name:ja_rm": "String",
+        "name:ja-Latn": "String",
+        "name:ja-Hira": "String",
+        "name:ka": "String",
+        "name:kk": "String",
+        "name:kn": "String",
+        "name:ko": "String",
+        "name:ko-Latn": "String",
+        "name:ku": "String",
+        "name:la": "String",
+        "name:lb": "String",
+        "name:lt": "String",
+        "name:lv": "String",
+        "name:mk": "String",
+        "name:mt": "String",
+        "name:ml": "String",
+        "name:nl": "String",
+        "name:no": "String",
+        "name:oc": "String",
+        "name:pl": "String",
+        "name:pt": "String",
+        "name:rm": "String",
+        "name:ro": "String",
+        "name:ru": "String",
+        "name:sk": "String",
+        "name:sl": "String",
+        "name:sq": "String",
+        "name:sr": "String",
+        "name:sr-Latn": "String",
+        "name:sv": "String",
+        "name:ta": "String",
+        "name:te": "String",
+        "name:th": "String",
+        "name:tr": "String",
+        "name:uk": "String",
+        "name:zh": "String",
+        "name_int": "String",
+        "name:latin": "String",
+        "name:nonlatin": "String",
+        "class": "String",
+        "brunnel": "String",
+        "intermittent": "Number"
+      }
+    },
+    {
+      "id": "landcover",
+      "description": "Landcover is used to describe the physical material at the surface of the earth. At lower zoom levels this is\nfrom Natural Earth data for glaciers and ice shelves and at higher zoom levels the landcover is [implied by OSM tags](http://wiki.openstreetmap.org/wiki/Landcover). The most common use case for this layer\n  is to style wood (`class=wood`) and grass (`class=grass`) areas.",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "class": "String",
+        "subclass": "String"
+      }
+    },
+    {
+      "id": "landuse",
+      "description": "Landuse is used to describe use of land by humans. At lower zoom levels this is\nfrom Natural Earth data for residential (urban) areas and at higher zoom levels mostly OSM `landuse` tags.",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "class": "String"
+      }
+    },
+    {
+      "id": "mountain_peak",
+      "description": "[Natural peaks](http://wiki.openstreetmap.org/wiki/Tag:natural%3Dpeak)",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "osm_id": "Number",
+        "name": "String",
+        "name_en": "String",
+        "name_de": "String",
+        "name:am": "String",
+        "name:ar": "String",
+        "name:az": "String",
+        "name:be": "String",
+        "name:bg": "String",
+        "name:br": "String",
+        "name:bs": "String",
+        "name:ca": "String",
+        "name:co": "String",
+        "name:cs": "String",
+        "name:cy": "String",
+        "name:da": "String",
+        "name:de": "String",
+        "name:el": "String",
+        "name:en": "String",
+        "name:eo": "String",
+        "name:es": "String",
+        "name:et": "String",
+        "name:eu": "String",
+        "name:fi": "String",
+        "name:fr": "String",
+        "name:fy": "String",
+        "name:ga": "String",
+        "name:gd": "String",
+        "name:he": "String",
+        "name:hi": "String",
+        "name:hr": "String",
+        "name:hu": "String",
+        "name:hy": "String",
+        "name:id": "String",
+        "name:is": "String",
+        "name:it": "String",
+        "name:ja": "String",
+        "name:ja_kana": "String",
+        "name:ja_rm": "String",
+        "name:ja-Latn": "String",
+        "name:ja-Hira": "String",
+        "name:ka": "String",
+        "name:kk": "String",
+        "name:kn": "String",
+        "name:ko": "String",
+        "name:ko-Latn": "String",
+        "name:ku": "String",
+        "name:la": "String",
+        "name:lb": "String",
+        "name:lt": "String",
+        "name:lv": "String",
+        "name:mk": "String",
+        "name:mt": "String",
+        "name:ml": "String",
+        "name:nl": "String",
+        "name:no": "String",
+        "name:oc": "String",
+        "name:pl": "String",
+        "name:pt": "String",
+        "name:rm": "String",
+        "name:ro": "String",
+        "name:ru": "String",
+        "name:sk": "String",
+        "name:sl": "String",
+        "name:sq": "String",
+        "name:sr": "String",
+        "name:sr-Latn": "String",
+        "name:sv": "String",
+        "name:ta": "String",
+        "name:te": "String",
+        "name:th": "String",
+        "name:tr": "String",
+        "name:uk": "String",
+        "name:zh": "String",
+        "name_int": "String",
+        "name:latin": "String",
+        "name:nonlatin": "String",
+        "class": "String",
+        "ele": "Number",
+        "ele_ft": "Number",
+        "customary_ft": "Number",
+        "rank": "Number"
+      }
+    },
+    {
+      "id": "park",
+      "description": "The park layer contains parks from OpenStreetMap tagged with\n[`boundary=national_park`](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dnational_park),\n[`boundary=protected_area`](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dprotected_area),\nor [`leisure=nature_reserve`](http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dnature_reserve).",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "class": "String",
+        "name": "String",
+        "name_en": "String",
+        "name_de": "String",
+        "name:am": "String",
+        "name:ar": "String",
+        "name:az": "String",
+        "name:be": "String",
+        "name:bg": "String",
+        "name:br": "String",
+        "name:bs": "String",
+        "name:ca": "String",
+        "name:co": "String",
+        "name:cs": "String",
+        "name:cy": "String",
+        "name:da": "String",
+        "name:de": "String",
+        "name:el": "String",
+        "name:en": "String",
+        "name:eo": "String",
+        "name:es": "String",
+        "name:et": "String",
+        "name:eu": "String",
+        "name:fi": "String",
+        "name:fr": "String",
+        "name:fy": "String",
+        "name:ga": "String",
+        "name:gd": "String",
+        "name:he": "String",
+        "name:hi": "String",
+        "name:hr": "String",
+        "name:hu": "String",
+        "name:hy": "String",
+        "name:id": "String",
+        "name:is": "String",
+        "name:it": "String",
+        "name:ja": "String",
+        "name:ja_kana": "String",
+        "name:ja_rm": "String",
+        "name:ja-Latn": "String",
+        "name:ja-Hira": "String",
+        "name:ka": "String",
+        "name:kk": "String",
+        "name:kn": "String",
+        "name:ko": "String",
+        "name:ko-Latn": "String",
+        "name:ku": "String",
+        "name:la": "String",
+        "name:lb": "String",
+        "name:lt": "String",
+        "name:lv": "String",
+        "name:mk": "String",
+        "name:mt": "String",
+        "name:ml": "String",
+        "name:nl": "String",
+        "name:no": "String",
+        "name:oc": "String",
+        "name:pl": "String",
+        "name:pt": "String",
+        "name:rm": "String",
+        "name:ro": "String",
+        "name:ru": "String",
+        "name:sk": "String",
+        "name:sl": "String",
+        "name:sq": "String",
+        "name:sr": "String",
+        "name:sr-Latn": "String",
+        "name:sv": "String",
+        "name:ta": "String",
+        "name:te": "String",
+        "name:th": "String",
+        "name:tr": "String",
+        "name:uk": "String",
+        "name:zh": "String",
+        "name_int": "String",
+        "name:latin": "String",
+        "name:nonlatin": "String",
+        "rank": "Number"
+      }
+    },
+    {
+      "id": "boundary",
+      "description": "Contains administrative boundaries as linestrings.\nUntil z4 [Natural Earth data](http://www.naturalearthdata.com/downloads/) is used after which\nOSM boundaries ([`boundary=administrative`](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative))\nare present from z5 to z14 (also for maritime boundaries with `admin_level <= 2` at z4).\nOSM data contains several [`admin_level`](http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative#admin_level)\nbut for most styles it makes sense to just style `admin_level=2` and `admin_level=4`.",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "admin_level": "Number",
+        "adm0_l": "String",
+        "adm0_r": "String",
+        "disputed": "Number",
+        "disputed_name": "String",
+        "claimed_by": "String",
+        "maritime": "Number"
+      }
+    },
+    {
+      "id": "aeroway",
+      "description": "Aeroway polygons based of OpenStreetMap [aeroways](http://wiki.openstreetmap.org/wiki/Aeroways).\nAirport buildings are contained in the **building** layer but all\nother airport related polygons can be found in the **aeroway** layer.",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "ref": "String",
+        "class": "String"
+      }
+    },
+    {
+      "id": "transportation",
+      "description": "**transportation** contains roads, railways, aerial ways, and shipping\n lines.\nThis layer is directly derived from the OSM road hierarchy.\nAt lower zoom levels major highways from Natural Earth are used.\nIt contains all roads from motorways to primary, secondary and\ntertiary roads to residential roads and\nfoot paths. Styling the roads is the most essential part of the map.\nThe `transportation` layer also contains polygons for features like plazas.",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "class": "String",
+        "subclass": "String",
+        "network": "String",
+        "oneway": "Number",
+        "ramp": "Number",
+        "brunnel": "String",
+        "service": "String",
+        "access": "String",
+        "toll": "Number",
+        "expressway": "Number",
+        "layer": "Number",
+        "level": "Number",
+        "indoor": "Number",
+        "bicycle": "String",
+        "foot": "String",
+        "horse": "String",
+        "mtb_scale": "String",
+        "surface": "String"
+      }
+    },
+    {
+      "id": "building",
+      "description": "All [OSM Buildings](http://wiki.openstreetmap.org/wiki/Buildings). All building tags are imported ([`building=*`](http://wiki.openstreetmap.org/wiki/Key:building)).\nOnly buildings with tag location:underground are excluded.",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "osm_id": "Number",
+        "render_height": "Number",
+        "render_min_height": "Number",
+        "colour": "String",
+        "hide_3d": "Boolean"
+      }
+    },
+    {
+      "id": "water_name",
+      "description": "Lake center lines for labelling lake bodies.\nThis is based of the [osm-lakelines](https://github.com/openmaptiles/osm-lakelines) project\nwhich derives nice centerlines from OSM water bodies. Only the most important lakes contain labels.",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "osm_id": "Number",
+        "name": "String",
+        "name_en": "String",
+        "name_de": "String",
+        "name:am": "String",
+        "name:ar": "String",
+        "name:az": "String",
+        "name:be": "String",
+        "name:bg": "String",
+        "name:br": "String",
+        "name:bs": "String",
+        "name:ca": "String",
+        "name:co": "String",
+        "name:cs": "String",
+        "name:cy": "String",
+        "name:da": "String",
+        "name:de": "String",
+        "name:el": "String",
+        "name:en": "String",
+        "name:eo": "String",
+        "name:es": "String",
+        "name:et": "String",
+        "name:eu": "String",
+        "name:fi": "String",
+        "name:fr": "String",
+        "name:fy": "String",
+        "name:ga": "String",
+        "name:gd": "String",
+        "name:he": "String",
+        "name:hi": "String",
+        "name:hr": "String",
+        "name:hu": "String",
+        "name:hy": "String",
+        "name:id": "String",
+        "name:is": "String",
+        "name:it": "String",
+        "name:ja": "String",
+        "name:ja_kana": "String",
+        "name:ja_rm": "String",
+        "name:ja-Latn": "String",
+        "name:ja-Hira": "String",
+        "name:ka": "String",
+        "name:kk": "String",
+        "name:kn": "String",
+        "name:ko": "String",
+        "name:ko-Latn": "String",
+        "name:ku": "String",
+        "name:la": "String",
+        "name:lb": "String",
+        "name:lt": "String",
+        "name:lv": "String",
+        "name:mk": "String",
+        "name:mt": "String",
+        "name:ml": "String",
+        "name:nl": "String",
+        "name:no": "String",
+        "name:oc": "String",
+        "name:pl": "String",
+        "name:pt": "String",
+        "name:rm": "String",
+        "name:ro": "String",
+        "name:ru": "String",
+        "name:sk": "String",
+        "name:sl": "String",
+        "name:sq": "String",
+        "name:sr": "String",
+        "name:sr-Latn": "String",
+        "name:sv": "String",
+        "name:ta": "String",
+        "name:te": "String",
+        "name:th": "String",
+        "name:tr": "String",
+        "name:uk": "String",
+        "name:zh": "String",
+        "name_int": "String",
+        "name:latin": "String",
+        "name:nonlatin": "String",
+        "class": "String",
+        "intermittent": "Number"
+      }
+    },
+    {
+      "id": "transportation_name",
+      "description": "This is the layer for labelling the highways. Only highways that are named `name=*` and are long enough\nto place text upon appear. The OSM roads are stitched together if they contain the same name\nto have better label placement than having many small linestrings.\nFor motorways you should use the `ref` field to label them while for other roads you should use `name`.",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "name": "String",
+        "name_en": "String",
+        "name_de": "String",
+        "name:am": "String",
+        "name:ar": "String",
+        "name:az": "String",
+        "name:be": "String",
+        "name:bg": "String",
+        "name:br": "String",
+        "name:bs": "String",
+        "name:ca": "String",
+        "name:co": "String",
+        "name:cs": "String",
+        "name:cy": "String",
+        "name:da": "String",
+        "name:de": "String",
+        "name:el": "String",
+        "name:en": "String",
+        "name:eo": "String",
+        "name:es": "String",
+        "name:et": "String",
+        "name:eu": "String",
+        "name:fi": "String",
+        "name:fr": "String",
+        "name:fy": "String",
+        "name:ga": "String",
+        "name:gd": "String",
+        "name:he": "String",
+        "name:hi": "String",
+        "name:hr": "String",
+        "name:hu": "String",
+        "name:hy": "String",
+        "name:id": "String",
+        "name:is": "String",
+        "name:it": "String",
+        "name:ja": "String",
+        "name:ja_kana": "String",
+        "name:ja_rm": "String",
+        "name:ja-Latn": "String",
+        "name:ja-Hira": "String",
+        "name:ka": "String",
+        "name:kk": "String",
+        "name:kn": "String",
+        "name:ko": "String",
+        "name:ko-Latn": "String",
+        "name:ku": "String",
+        "name:la": "String",
+        "name:lb": "String",
+        "name:lt": "String",
+        "name:lv": "String",
+        "name:mk": "String",
+        "name:mt": "String",
+        "name:ml": "String",
+        "name:nl": "String",
+        "name:no": "String",
+        "name:oc": "String",
+        "name:pl": "String",
+        "name:pt": "String",
+        "name:rm": "String",
+        "name:ro": "String",
+        "name:ru": "String",
+        "name:sk": "String",
+        "name:sl": "String",
+        "name:sq": "String",
+        "name:sr": "String",
+        "name:sr-Latn": "String",
+        "name:sv": "String",
+        "name:ta": "String",
+        "name:te": "String",
+        "name:th": "String",
+        "name:tr": "String",
+        "name:uk": "String",
+        "name:zh": "String",
+        "name_int": "String",
+        "name:latin": "String",
+        "name:nonlatin": "String",
+        "ref": "String",
+        "ref_length": "Number",
+        "network": "String",
+        "class": "String",
+        "subclass": "String",
+        "brunnel": "String",
+        "layer": "Number",
+        "level": "Number",
+        "indoor": "Number",
+        "route_1": "String",
+        "route_2": "String",
+        "route_3": "String",
+        "route_4": "String",
+        "route_5": "String",
+        "route_6": "String"
+      }
+    },
+    {
+      "id": "place",
+      "description": "The place layer consists out of [countries](http://wiki.openstreetmap.org/wiki/Tag:place%3Dcountry),\n[states](http://wiki.openstreetmap.org/wiki/Tag:place%3Dstate), [cities](http://wiki.openstreetmap.org/wiki/Key:place)\nand [islands](https://wiki.openstreetmap.org/wiki/Tag:place%3Disland).\nApart from the roads this is also one of the more important layers to create a beautiful map.\nWe suggest you use different font styles and sizes to create a text hierarchy.",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "osm_id": "Number",
+        "name": "String",
+        "name_en": "String",
+        "name_de": "String",
+        "name:am": "String",
+        "name:ar": "String",
+        "name:az": "String",
+        "name:be": "String",
+        "name:bg": "String",
+        "name:br": "String",
+        "name:bs": "String",
+        "name:ca": "String",
+        "name:co": "String",
+        "name:cs": "String",
+        "name:cy": "String",
+        "name:da": "String",
+        "name:de": "String",
+        "name:el": "String",
+        "name:en": "String",
+        "name:eo": "String",
+        "name:es": "String",
+        "name:et": "String",
+        "name:eu": "String",
+        "name:fi": "String",
+        "name:fr": "String",
+        "name:fy": "String",
+        "name:ga": "String",
+        "name:gd": "String",
+        "name:he": "String",
+        "name:hi": "String",
+        "name:hr": "String",
+        "name:hu": "String",
+        "name:hy": "String",
+        "name:id": "String",
+        "name:is": "String",
+        "name:it": "String",
+        "name:ja": "String",
+        "name:ja_kana": "String",
+        "name:ja_rm": "String",
+        "name:ja-Latn": "String",
+        "name:ja-Hira": "String",
+        "name:ka": "String",
+        "name:kk": "String",
+        "name:kn": "String",
+        "name:ko": "String",
+        "name:ko-Latn": "String",
+        "name:ku": "String",
+        "name:la": "String",
+        "name:lb": "String",
+        "name:lt": "String",
+        "name:lv": "String",
+        "name:mk": "String",
+        "name:mt": "String",
+        "name:ml": "String",
+        "name:nl": "String",
+        "name:no": "String",
+        "name:oc": "String",
+        "name:pl": "String",
+        "name:pt": "String",
+        "name:rm": "String",
+        "name:ro": "String",
+        "name:ru": "String",
+        "name:sk": "String",
+        "name:sl": "String",
+        "name:sq": "String",
+        "name:sr": "String",
+        "name:sr-Latn": "String",
+        "name:sv": "String",
+        "name:ta": "String",
+        "name:te": "String",
+        "name:th": "String",
+        "name:tr": "String",
+        "name:uk": "String",
+        "name:zh": "String",
+        "name_int": "String",
+        "name:latin": "String",
+        "name:nonlatin": "String",
+        "class": "String",
+        "rank": "Number",
+        "capital": "Number",
+        "iso_a2": "String"
+      }
+    },
+    {
+      "id": "housenumber",
+      "description": "Everything in OpenStreetMap which contains a `addr:housenumber` tag useful for labelling housenumbers on a map.\nThis adds significant size to *z14*. For buildings the centroid of the building is used as housenumber.",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "housenumber": "String"
+      }
+    },
+    {
+      "id": "poi",
+      "description": "[Points of interests](http://wiki.openstreetmap.org/wiki/Points_of_interest) containing\na of a variety of OpenStreetMap tags. Mostly contains amenities, sport, shop and tourist POIs.",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "osm_id": "Number",
+        "name": "String",
+        "name_en": "String",
+        "name_de": "String",
+        "name:am": "String",
+        "name:ar": "String",
+        "name:az": "String",
+        "name:be": "String",
+        "name:bg": "String",
+        "name:br": "String",
+        "name:bs": "String",
+        "name:ca": "String",
+        "name:co": "String",
+        "name:cs": "String",
+        "name:cy": "String",
+        "name:da": "String",
+        "name:de": "String",
+        "name:el": "String",
+        "name:en": "String",
+        "name:eo": "String",
+        "name:es": "String",
+        "name:et": "String",
+        "name:eu": "String",
+        "name:fi": "String",
+        "name:fr": "String",
+        "name:fy": "String",
+        "name:ga": "String",
+        "name:gd": "String",
+        "name:he": "String",
+        "name:hi": "String",
+        "name:hr": "String",
+        "name:hu": "String",
+        "name:hy": "String",
+        "name:id": "String",
+        "name:is": "String",
+        "name:it": "String",
+        "name:ja": "String",
+        "name:ja_kana": "String",
+        "name:ja_rm": "String",
+        "name:ja-Latn": "String",
+        "name:ja-Hira": "String",
+        "name:ka": "String",
+        "name:kk": "String",
+        "name:kn": "String",
+        "name:ko": "String",
+        "name:ko-Latn": "String",
+        "name:ku": "String",
+        "name:la": "String",
+        "name:lb": "String",
+        "name:lt": "String",
+        "name:lv": "String",
+        "name:mk": "String",
+        "name:mt": "String",
+        "name:ml": "String",
+        "name:nl": "String",
+        "name:no": "String",
+        "name:oc": "String",
+        "name:pl": "String",
+        "name:pt": "String",
+        "name:rm": "String",
+        "name:ro": "String",
+        "name:ru": "String",
+        "name:sk": "String",
+        "name:sl": "String",
+        "name:sq": "String",
+        "name:sr": "String",
+        "name:sr-Latn": "String",
+        "name:sv": "String",
+        "name:ta": "String",
+        "name:te": "String",
+        "name:th": "String",
+        "name:tr": "String",
+        "name:uk": "String",
+        "name:zh": "String",
+        "name_int": "String",
+        "name:latin": "String",
+        "name:nonlatin": "String",
+        "class": "String",
+        "subclass": "String",
+        "agg_stop": "Number",
+        "layer": "Number",
+        "level": "Number",
+        "indoor": "Number",
+        "rank": "Number"
+      }
+    },
+    {
+      "id": "aerodrome_label",
+      "description": "[Aerodrome labels](http://wiki.openstreetmap.org/wiki/Tag:aeroway%3Daerodrome)",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "id": "Number",
+        "name": "String",
+        "name_en": "String",
+        "name_de": "String",
+        "name:am": "String",
+        "name:ar": "String",
+        "name:az": "String",
+        "name:be": "String",
+        "name:bg": "String",
+        "name:br": "String",
+        "name:bs": "String",
+        "name:ca": "String",
+        "name:co": "String",
+        "name:cs": "String",
+        "name:cy": "String",
+        "name:da": "String",
+        "name:de": "String",
+        "name:el": "String",
+        "name:en": "String",
+        "name:eo": "String",
+        "name:es": "String",
+        "name:et": "String",
+        "name:eu": "String",
+        "name:fi": "String",
+        "name:fr": "String",
+        "name:fy": "String",
+        "name:ga": "String",
+        "name:gd": "String",
+        "name:he": "String",
+        "name:hi": "String",
+        "name:hr": "String",
+        "name:hu": "String",
+        "name:hy": "String",
+        "name:id": "String",
+        "name:is": "String",
+        "name:it": "String",
+        "name:ja": "String",
+        "name:ja_kana": "String",
+        "name:ja_rm": "String",
+        "name:ja-Latn": "String",
+        "name:ja-Hira": "String",
+        "name:ka": "String",
+        "name:kk": "String",
+        "name:kn": "String",
+        "name:ko": "String",
+        "name:ko-Latn": "String",
+        "name:ku": "String",
+        "name:la": "String",
+        "name:lb": "String",
+        "name:lt": "String",
+        "name:lv": "String",
+        "name:mk": "String",
+        "name:mt": "String",
+        "name:ml": "String",
+        "name:nl": "String",
+        "name:no": "String",
+        "name:oc": "String",
+        "name:pl": "String",
+        "name:pt": "String",
+        "name:rm": "String",
+        "name:ro": "String",
+        "name:ru": "String",
+        "name:sk": "String",
+        "name:sl": "String",
+        "name:sq": "String",
+        "name:sr": "String",
+        "name:sr-Latn": "String",
+        "name:sv": "String",
+        "name:ta": "String",
+        "name:te": "String",
+        "name:th": "String",
+        "name:tr": "String",
+        "name:uk": "String",
+        "name:zh": "String",
+        "name_int": "String",
+        "name:latin": "String",
+        "name:nonlatin": "String",
+        "class": "String",
+        "iata": "String",
+        "icao": "String",
+        "ele": "Number",
+        "ele_ft": "Number"
+      }
+    }
+  ],
+  "attribution": "<a href=\"https://www.maptiler.com/copyright/\" target=\"_blank\">&copy; MapTiler</a> <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap contributors</a>",
+  "center": [
+    0,
+    0,
+    1
+  ],
+  "logo": "https://api.maptiler.com/resources/logo.svg",
+  "name": "OpenMapTiles WGS84",
+  "crs": "EPSG:4326",
+  "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]",
+  "extent": [
+    -180,
+    -90,
+    180,
+    90
+  ],
+  "tile_matrix_set": {
+    "min_x": -180,
+    "min_y": -90,
+    "max_x": 180,
+    "max_y": 90,
+    "items": [
+      {
+        "zoom_level": 0,
+        "matrix_width": 2,
+        "matrix_height": 1,
+        "tile_width": 512,
+        "tile_height": 512,
+        "pixel_x_size": 0.3515625,
+        "pixel_y_size": 0.3515625,
+        "scale_denominator": 139770566.00717947,
+        "origin": [
+          90,
+          -180
+        ]
+      },
+      {
+        "zoom_level": 1,
+        "matrix_width": 4,
+        "matrix_height": 2,
+        "tile_width": 512,
+        "tile_height": 512,
+        "pixel_x_size": 0.17578125,
+        "pixel_y_size": 0.17578125,
+        "scale_denominator": 69885283.00358973,
+        "origin": [
+          90,
+          -180
+        ]
+      },
+      {
+        "zoom_level": 2,
+        "matrix_width": 8,
+        "matrix_height": 4,
+        "tile_width": 512,
+        "tile_height": 512,
+        "pixel_x_size": 0.087890625,
+        "pixel_y_size": 0.087890625,
+        "scale_denominator": 34942641.50179487,
+        "origin": [
+          90,
+          -180
+        ]
+      },
+      {
+        "zoom_level": 3,
+        "matrix_width": 16,
+        "matrix_height": 8,
+        "tile_width": 512,
+        "tile_height": 512,
+        "pixel_x_size": 0.0439453125,
+        "pixel_y_size": 0.0439453125,
+        "scale_denominator": 17471320.750897434,
+        "origin": [
+          90,
+          -180
+        ]
+      },
+      {
+        "zoom_level": 4,
+        "matrix_width": 32,
+        "matrix_height": 16,
+        "tile_width": 512,
+        "tile_height": 512,
+        "pixel_x_size": 0.02197265625,
+        "pixel_y_size": 0.02197265625,
+        "scale_denominator": 8735660.375448717,
+        "origin": [
+          90,
+          -180
+        ]
+      },
+      {
+        "zoom_level": 5,
+        "matrix_width": 64,
+        "matrix_height": 32,
+        "tile_width": 512,
+        "tile_height": 512,
+        "pixel_x_size": 0.010986328125,
+        "pixel_y_size": 0.010986328125,
+        "scale_denominator": 4367830.187724358,
+        "origin": [
+          90,
+          -180
+        ]
+      },
+      {
+        "zoom_level": 6,
+        "matrix_width": 128,
+        "matrix_height": 64,
+        "tile_width": 512,
+        "tile_height": 512,
+        "pixel_x_size": 0.0054931640625,
+        "pixel_y_size": 0.0054931640625,
+        "scale_denominator": 2183915.093862179,
+        "origin": [
+          90,
+          -180
+        ]
+      },
+      {
+        "zoom_level": 7,
+        "matrix_width": 256,
+        "matrix_height": 128,
+        "tile_width": 512,
+        "tile_height": 512,
+        "pixel_x_size": 0.00274658203125,
+        "pixel_y_size": 0.00274658203125,
+        "scale_denominator": 1091957.5469310896,
+        "origin": [
+          90,
+          -180
+        ]
+      },
+      {
+        "zoom_level": 8,
+        "matrix_width": 512,
+        "matrix_height": 256,
+        "tile_width": 512,
+        "tile_height": 512,
+        "pixel_x_size": 0.001373291015625,
+        "pixel_y_size": 0.001373291015625,
+        "scale_denominator": 545978.7734655448,
+        "origin": [
+          90,
+          -180
+        ]
+      },
+      {
+        "zoom_level": 9,
+        "matrix_width": 1024,
+        "matrix_height": 512,
+        "tile_width": 512,
+        "tile_height": 512,
+        "pixel_x_size": 0.0006866455078125,
+        "pixel_y_size": 0.0006866455078125,
+        "scale_denominator": 272989.3867327724,
+        "origin": [
+          90,
+          -180
+        ]
+      },
+      {
+        "zoom_level": 10,
+        "matrix_width": 2048,
+        "matrix_height": 1024,
+        "tile_width": 512,
+        "tile_height": 512,
+        "pixel_x_size": 0.00034332275390625,
+        "pixel_y_size": 0.00034332275390625,
+        "scale_denominator": 136494.6933663862,
+        "origin": [
+          90,
+          -180
+        ]
+      },
+      {
+        "zoom_level": 11,
+        "matrix_width": 4096,
+        "matrix_height": 2048,
+        "tile_width": 512,
+        "tile_height": 512,
+        "pixel_x_size": 0.000171661376953125,
+        "pixel_y_size": 0.000171661376953125,
+        "scale_denominator": 68247.3466831931,
+        "origin": [
+          90,
+          -180
+        ]
+      },
+      {
+        "zoom_level": 12,
+        "matrix_width": 8192,
+        "matrix_height": 4096,
+        "tile_width": 512,
+        "tile_height": 512,
+        "pixel_x_size": 0.0000858306884765625,
+        "pixel_y_size": 0.0000858306884765625,
+        "scale_denominator": 34123.67334159655,
+        "origin": [
+          90,
+          -180
+        ]
+      },
+      {
+        "zoom_level": 13,
+        "matrix_width": 16384,
+        "matrix_height": 8192,
+        "tile_width": 512,
+        "tile_height": 512,
+        "pixel_x_size": 0.00004291534423828125,
+        "pixel_y_size": 0.00004291534423828125,
+        "scale_denominator": 17061.836670798275,
+        "origin": [
+          90,
+          -180
+        ]
+      }
+    ]
+  },
+  "tileInfo": {
+    "rows": 512,
+    "cols": 512,
+    "dpi": 96,
+    "format": "pbf",
+    "origin": {
+      "x": -180,
+      "y": 90
+    },
+    "spatialReference": {
+      "wkid": 4326,
+      "latestWkid": 4326
+    },
+    "lods": [
+      {
+        "level": 0,
+        "resolution": 0.3515625,
+        "scale": 139770566.00717947
+      },
+      {
+        "level": 1,
+        "resolution": 0.17578125,
+        "scale": 69885283.00358973
+      },
+      {
+        "level": 2,
+        "resolution": 0.087890625,
+        "scale": 34942641.50179487
+      },
+      {
+        "level": 3,
+        "resolution": 0.0439453125,
+        "scale": 17471320.750897434
+      },
+      {
+        "level": 4,
+        "resolution": 0.02197265625,
+        "scale": 8735660.375448717
+      },
+      {
+        "level": 5,
+        "resolution": 0.010986328125,
+        "scale": 4367830.187724358
+      },
+      {
+        "level": 6,
+        "resolution": 0.0054931640625,
+        "scale": 2183915.093862179
+      },
+      {
+        "level": 7,
+        "resolution": 0.00274658203125,
+        "scale": 1091957.5469310896
+      },
+      {
+        "level": 8,
+        "resolution": 0.001373291015625,
+        "scale": 545978.7734655448
+      },
+      {
+        "level": 9,
+        "resolution": 0.0006866455078125,
+        "scale": 272989.3867327724
+      },
+      {
+        "level": 10,
+        "resolution": 0.00034332275390625,
+        "scale": 136494.6933663862
+      },
+      {
+        "level": 11,
+        "resolution": 0.000171661376953125,
+        "scale": 68247.3466831931
+      },
+      {
+        "level": 12,
+        "resolution": 0.0000858306884765625,
+        "scale": 34123.67334159655
+      },
+      {
+        "level": 13,
+        "resolution": 0.00004291534423828125,
+        "scale": 17061.836670798275
+      }
+    ]
+  },
+
+  "fullExtent": {
+    "xmin": -180,
+    "ymin": -90,
+    "xmax": 180,
+    "ymax": 90,
+    "spatialReference": {
+      "wkid": 4326,
+      "latestWkid": 4326
+    }
+  },
+
+  
+  "tiles": [
+    "https://api.maptiler.com/tiles/v3-4326/{z}/{x}/{y}.pbf?key=pSHUA9sSkNny3iqoWG4P"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "tileInfo": {
+    "rows": 512,
+    "cols": 512,
+    "dpi": 96,
+    "format": "pbf",
+    "origin": {
+      "x": -180,
+      "y": 90
+    },
+    "spatialReference": {
+      "wkid": 4326,
+      "latestWkid": 4326
+    },
+    "lods": [
+      {
+        "level": 0,
+        "resolution": 0.3515625,
+        "scale": 139770566.00717947
+      },
+      {
+        "level": 1,
+        "resolution": 0.17578125,
+        "scale": 69885283.00358973
+      },
+      {
+        "level": 2,
+        "resolution": 0.087890625,
+        "scale": 34942641.50179487
+      },
+      {
+        "level": 3,
+        "resolution": 0.0439453125,
+        "scale": 17471320.750897434
+      },
+      {
+        "level": 4,
+        "resolution": 0.02197265625,
+        "scale": 8735660.375448717
+      },
+      {
+        "level": 5,
+        "resolution": 0.010986328125,
+        "scale": 4367830.187724358
+      },
+      {
+        "level": 6,
+        "resolution": 0.0054931640625,
+        "scale": 2183915.093862179
+      },
+      {
+        "level": 7,
+        "resolution": 0.00274658203125,
+        "scale": 1091957.5469310896
+      },
+      {
+        "level": 8,
+        "resolution": 0.001373291015625,
+        "scale": 545978.7734655448
+      },
+      {
+        "level": 9,
+        "resolution": 0.0006866455078125,
+        "scale": 272989.3867327724
+      },
+      {
+        "level": 10,
+        "resolution": 0.00034332275390625,
+        "scale": 136494.6933663862
+      },
+      {
+        "level": 11,
+        "resolution": 0.000171661376953125,
+        "scale": 68247.3466831931
+      },
+      {
+        "level": 12,
+        "resolution": 0.0000858306884765625,
+        "scale": 34123.67334159655
+      },
+      {
+        "level": 13,
+        "resolution": 0.00004291534423828125,
+        "scale": 17061.836670798275
+      }
+    ]
+  },
+  "fullExtent": {
+    "xmin": -180,
+    "ymin": -90,
+    "xmax": 180,
+    "ymax": 90,
+    "spatialReference": {
+      "wkid": 4326,
+      "latestWkid": 4326
+    }
+  },
+
+  "tiles": [
+    "http://192.168.110.214:8050/zgis/vector/tile/{z}/{x}/{y}"
+  ]
+}

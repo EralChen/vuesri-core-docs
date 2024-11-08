@@ -1,0 +1,21 @@
+{
+  "version": 8,
+  "sources": {
+    "openmaptiles": {
+      "url": "./tiles2.json",
+      "type": "vector"
+    }
+  },
+  "layers": [
+    {
+      "id": "custom-go-vector-tile-layer",
+      "source": "esri",
+      "source-layer": "123",
+      "type": "line",
+      "paint": {
+        "line-color": "#ff0000",
+        "line-width": 2
+      }
+    }
+  ]
+}

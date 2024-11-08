@@ -1,0 +1,1 @@
+class s{constructor(){this.removeHandler=null}async remove(){await this.removeHandler?.(),this.removeHandler=null}async toggle(e){this.removeHandler?this.remove():this.add(e)}async reset(e){await this.remove(),await this.add(e)}}export{s as T};
