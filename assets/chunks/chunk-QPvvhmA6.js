@@ -1,1 +1,0 @@
-import{u as o}from"./chunk-BU0sQgI5.js";import{g$ as n,he as r}from"./chunk-CGsGeN7j.js";const i=n({__name:"core",setup(s){return o().on("drag",e=>{e.button===2&&e.stopPropagation()}),(e,a)=>r(e.$slots,"default")}});export{i as _};

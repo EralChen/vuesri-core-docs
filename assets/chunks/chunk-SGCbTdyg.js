@@ -1,1 +1,0 @@
-import{bV as a,av as l}from"./chunk-CGsGeN7j.js";function m(e,t=a(e)){return t.mode!=="on-the-ground"&&!(e.geometry==null||!e.geometry.hasZ)}function s(e,t){let n=null;const r=e.events.on("grab-changed",o=>{n!=null&&(n.remove(),n=null),o.action==="start"&&(n=e.disableDisplay())});return l(()=>{n?.remove(),r.remove()})}export{m as n,s as t};
